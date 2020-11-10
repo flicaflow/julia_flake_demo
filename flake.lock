@@ -1,0 +1,54 @@
+{
+  "nodes": {
+    "julia": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "narHash": "sha256-aE9Qv+jYkGeik38sjrxFC5zn0kJr2VmGz4WjF0ejlxE=",
+        "path": "/home/florian/Code/julia_flake",
+        "type": "path"
+      },
+      "original": {
+        "path": "/home/florian/Code/julia_flake",
+        "type": "path"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1604316167,
+        "narHash": "sha256-jukv+jkgzqGKc9qpl9eVIwA5674ZfK99VjHcwpvfs7Y=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "92781c27bd16862e50f6e9b65a01d12d843cca59",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1604047033,
+        "narHash": "sha256-Njlr5zTnnPMdh7HX32yFgEfRXuhet/MBPOV9I2riXU8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "40a92fe2b9fe646a94766c5fc8166fd97fdc7b6f",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "julia": "julia",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
